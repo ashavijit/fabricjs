@@ -37,7 +37,7 @@ class DesignCanvas extends React.Component {
         <button onClick={e => {
           e.preventDefault()
           console.log(this.state.canvas.toJSON())
-        }}>Ok</button>
+        }}>Take me to Console</button>
       </Fragment>
     )
   }
